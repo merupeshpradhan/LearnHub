@@ -1,36 +1,236 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# 🎓 Next-Gen Learning Dashboard
 
-## Getting Started
+A modern and responsive student learning dashboard built with **Next.js 15**, **TypeScript**, **Tailwind CSS**, **Supabase**, and **Framer Motion**. This project provides an interactive learning experience with course tracking, progress visualization, activity monitoring, and smooth animations.
 
-First, run the development server:
+---
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+## 🚀 Live Demo
+
+🔗 Live Website: [Add Your Vercel URL Here]
+
+🔗 GitHub Repository: [Add Your GitHub Repository URL Here]
+
+---
+
+## 📸 Screenshots
+
+### Dashboard Overview
+
+Add Screenshot Here
+
+```md
+![Dashboard](./screenshots/dashboard.png)
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+### Responsive Tablet View
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+Add Screenshot Here
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+```md
+![Tablet View](./screenshots/tablet-view.png)
+```
 
-## Learn More
+### Mobile View
 
-To learn more about Next.js, take a look at the following resources:
+Add Screenshot Here
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+```md
+![Mobile View](./screenshots/mobile-view.png)
+```
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+---
 
-## Deploy on Vercel
+## ✨ Features
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+* Responsive Dashboard UI
+* Sidebar Navigation
+* Hero Welcome Section
+* Dynamic Course Cards
+* Activity Tracking Section
+* Learning Progress Visualization
+* Supabase Database Integration
+* Loading Skeleton UI
+* Smooth Framer Motion Animations
+* Mobile, Tablet, and Desktop Support
+* Modern Bento Grid Layout
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+---
+
+## 🛠 Tech Stack
+
+### Frontend
+
+* Next.js 15
+* TypeScript
+* Tailwind CSS
+* Framer Motion
+* Lucide React
+
+### Backend & Database
+
+* Supabase
+
+### Deployment
+
+* Vercel
+
+---
+
+## 📂 Project Structure
+
+```bash
+src
+├── app
+│   ├── page.tsx
+│   └── loading.tsx
+│
+├── components
+│   ├── Sidebar.tsx
+│   ├── HeroCard.tsx
+│   ├── ActivityCard.tsx
+│   └── CourseCard.tsx
+│
+├── lib
+│   └── supabase.ts
+│
+└── types
+    └── course.ts
+```
+
+---
+
+## 🗄 Database Schema
+
+### Courses Table
+
+| Column     | Type      |
+| ---------- | --------- |
+| id         | uuid      |
+| title      | text      |
+| progress   | integer   |
+| icon_name  | text      |
+| created_at | timestamp |
+
+Example Data:
+
+```sql
+insert into courses (title, progress, icon_name)
+values
+('Advanced React Patterns', 75, 'Code'),
+('Next.js App Router', 90, 'Rocket'),
+('TypeScript Mastery', 60, 'FileCode');
+```
+
+---
+
+## ⚙️ Environment Variables
+
+Create a `.env.local` file:
+
+```env
+NEXT_PUBLIC_SUPABASE_URL=your_supabase_url
+NEXT_PUBLIC_SUPABASE_ANON_KEY=your_supabase_anon_key
+```
+
+---
+
+## 📦 Installation
+
+Clone the repository:
+
+```bash
+git clone <repository-url>
+```
+
+Move into project folder:
+
+```bash
+cd learning-dashboard
+```
+
+Install dependencies:
+
+```bash
+pnpm install
+```
+
+Run development server:
+
+```bash
+pnpm dev
+```
+
+Open:
+
+```bash
+http://localhost:3000
+```
+
+---
+
+## 🎨 Animations
+
+Implemented using Framer Motion:
+
+* Fade In Animations
+* Hover Effects
+* Scale Transitions
+* Progress Bar Animations
+* Smooth Page Experience
+
+---
+
+## 📱 Responsive Design
+
+Supports:
+
+* Mobile Devices
+* Tablets
+* Laptops
+* Desktop Screens
+
+---
+
+## 🚀 Deployment
+
+This project is deployed using Vercel.
+
+Build command:
+
+```bash
+pnpm build
+```
+
+Production start:
+
+```bash
+pnpm start
+```
+
+---
+
+## 🧠 Challenges Faced
+
+* Integrating Supabase with Next.js
+* Designing a responsive dashboard layout
+* Implementing loading skeletons
+* Creating smooth UI animations
+* Managing dynamic data rendering
+
+---
+
+## 👨‍💻 Author
+
+**Rupesh Pradhan**
+
+Frontend Developer
+
+GitHub: Add Your GitHub Profile
+
+LinkedIn: Add Your LinkedIn Profile
+
+---
+
+## 📄 License
+
+This project is created for educational and internship assessment purposes.
