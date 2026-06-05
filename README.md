@@ -16,23 +16,18 @@ A modern and responsive student learning dashboard built with **Next.js 15**, **
 
 ### Dashboard Overview
 
-```md
-![Dashboard](https://github.com/user-attachments/assets/7fde3356-2184-4c95-a761-8d8aad2e9770
-)
+![Dashboard](https://github.com/user-attachments/assets/7fde3356-2184-4c95-a761-8d8aad2e9770)
+
 ```
 
 ### Responsive Tablet View
 
-```md
-![Tablet View](https://github.com/user-attachments/assets/12068365-1c7a-4d85-af7f-caf6b9631000
-)
+![Tablet View](https://github.com/user-attachments/assets/12068365-1c7a-4d85-af7f-caf6b9631000)
 ```
 
 ### Mobile Vie
 
-```md
-![Mobile View](https://github.com/user-attachments/assets/28cc5662-6a46-4918-8ba0-ab9aefda9a96
-)
+![Mobile View](https://github.com/user-attachments/assets/28cc5662-6a46-4918-8ba0-ab9aefda9a96)
 ```
 
 ---
