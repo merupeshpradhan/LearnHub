@@ -6,9 +6,9 @@ A modern and responsive student learning dashboard built with **Next.js 15**, **
 
 ## 🚀 Live Demo
 
-🔗 Live Website: [Add Your Vercel URL Here]
+🔗 Live Website: https://learn-hub-five-tan.vercel.app
 
-🔗 GitHub Repository: [Add Your GitHub Repository URL Here]
+🔗 GitHub Repository: https://github.com/merupeshpradhan/LearnHub
 
 ---
 
@@ -16,26 +16,23 @@ A modern and responsive student learning dashboard built with **Next.js 15**, **
 
 ### Dashboard Overview
 
-Add Screenshot Here
-
 ```md
-![Dashboard](./screenshots/dashboard.png)
+![Dashboard](https://github.com/user-attachments/assets/7fde3356-2184-4c95-a761-8d8aad2e9770
+)
 ```
 
 ### Responsive Tablet View
 
-Add Screenshot Here
-
 ```md
-![Tablet View](./screenshots/tablet-view.png)
+![Tablet View](https://github.com/user-attachments/assets/12068365-1c7a-4d85-af7f-caf6b9631000
+)
 ```
 
-### Mobile View
-
-Add Screenshot Here
+### Mobile Vie
 
 ```md
-![Mobile View](./screenshots/mobile-view.png)
+![Mobile View](https://github.com/user-attachments/assets/28cc5662-6a46-4918-8ba0-ab9aefda9a96
+)
 ```
 
 ---
