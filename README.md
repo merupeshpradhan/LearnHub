@@ -22,7 +22,8 @@ A modern and responsive student learning dashboard built with **Next.js 15**, **
 
 ### Responsive Tablet View
 
-![Tablet View](https://github.com/user-attachments/assets/666749b4-cc07-4377-b6c5-faedbec3fc23)
+![Tablet View](https://github.com/user-attachments/assets/7fde3356-2184-4c95-a761-8d8aad2e9770)
+
 ```
 
 ### Mobile Vie
