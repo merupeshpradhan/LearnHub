@@ -222,9 +222,9 @@ pnpm start
 
 Frontend Developer
 
-GitHub: Add Your GitHub Profile
+GitHub: https://github.com/merupeshpradhan
 
-LinkedIn: Add Your LinkedIn Profile
+LinkedIn: https://www.linkedin.com/in/merupeshpradhan
 
 ---
 
