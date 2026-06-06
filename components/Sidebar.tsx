@@ -31,7 +31,8 @@ export default function Sidebar() {
       className="
         w-20
         lg:w-64
-        min-h-screen
+        min-h-[140vh]
+        md:min-h-screen
         bg-zinc-950
         border-r
         border-zinc-800
@@ -89,21 +90,31 @@ export default function Sidebar() {
               );
             })}
           </ul>
+          <div className="block lg:hidden">
+            <div className="flex items-center justify-center pt-3">
+              {/* Avatar circle */}
+              <div className="h-10 w-10 rounded-full bg-violet-600 flex items-center justify-center text-white font-bold">
+                R
+              </div>
+            </div>
+          </div>
         </nav>
       </div>
 
-      {/* User profile section at bottom */}
-      <div className="flex items-center justify-center lg:justify-start gap-3">
-        {/* Avatar circle */}
-        <div className="h-10 w-10 rounded-full bg-violet-600 flex items-center justify-center text-white font-bold">
-          R
-        </div>
+      {/* User info (hidden on small screens) */}
+      <div className="hidden lg:block">
+        {/* User profile section at bottom */}
+        <div className="flex items-center justify-center lg:justify-start gap-3">
+          {/* Avatar circle */}
+          <div className="h-10 w-10 rounded-full bg-violet-600 flex items-center justify-center text-white font-bold">
+            R
+          </div>
 
-        {/* User info (hidden on small screens) */}
-        <div className="hidden lg:block">
-          <h3 className="text-white font-medium">Rupesh</h3>
+          <div className="">
+            <h3 className="text-white font-medium">Rupesh</h3>
 
-          <p className="text-sm text-zinc-400">Frontend Developer</p>
+            <p className="text-sm text-zinc-400">Frontend Developer</p>
+          </div>
         </div>
       </div>
     </aside>
